@@ -1,0 +1,130 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    background-color: #FFA7A7;
+    overflow: hidden;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.principal-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px 10px 30px;
+}
+
+.gameboy {
+    width: 320px;
+    height: 620px;
+    border-radius: 20px;
+    background-color: #FFD600;
+    box-shadow: 5px 5px 0px #FF62C0;
+    margin: auto;
+}
+
+.screen-spot {
+    width: 260px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #FFAB2E;
+    box-shadow: 4px 4px 0 #FFFFFF;
+    display: flex;
+    align-content: center;
+    margin: 20px auto;
+}
+
+.screen {
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #96F9FF;
+    box-shadow: 3px 3px 0 #FFFFFF;
+    margin: auto;
+    overflow: hidden;
+}
+
+.screen-reflex {
+    background-color: #ffffff80;
+    width: 150px;
+    height: 180px;
+    transform: skew(-60deg);
+}
+
+.cross-buttons {
+    width: 90px;
+    height: 90px;
+}
+
+.cross-button {
+    width: 30px;
+    height: 30px;
+    background-color: #FF62C0;
+}
+
+.left-button, .middle-button, .right-button {
+    margin-right: -4px;
+}
+
+.top,.bottom {
+    margin: -4px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top-button {
+    border-radius: 5px 5px 0;
+    box-shadow: 3px 3px 0 #35DBFF;
+}
+
+.right-button {
+    border-radius: 0 5px 5px 0;
+    box-shadow: 3px 3px 0 #35DBFF;
+}
+
+.left-button {
+    border-radius: 5px 0 0 5px;
+    box-shadow: 3px 3px 0 #35DBFF;
+}
+
+.bottom-button {
+    border-radius: 0 0 5px 5px;
+    box-shadow: 3px 3px 0 #35DBFF;
+}
+
+.round-buttons > button {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #35DBFF;
+    box-shadow: 2.5px 2.5px 0 #BD7AFF;
+    margin-top: 15px;
+}
+
+.round-buttons {
+    display: flex;
+    flex-direction: column;
+    transform: rotateZ(45deg);
+    margin-left: 50px;
+}
+
+.small-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.small-buttons > button {
+    background-color: #2DFF81;
+    width: 10px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 #FF782D;
+    transform: rotateZ(60deg);
+    margin: 0 30px;
+}
